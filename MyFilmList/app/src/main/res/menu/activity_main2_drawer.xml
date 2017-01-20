@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/nav_group_up_tittle">
+    <menu>
+        <group android:checkableBehavior="single"
+            android:id="@+id/group_top">
+            <item
+                android:id="@+id/nav_titol"
+                android:icon="@drawable/ic_titol"
+                android:title="@string/nav_title_text" />
+            <item
+                android:id="@+id/nav_protagonista"
+                android:icon="@drawable/ic_protagonist"
+                android:title="@string/nav_protagonista_text" />
+            <item
+                android:id="@+id/nav_director"
+                android:icon="@drawable/ic_director"
+                android:title="@string/nav_director_text" />
+        </group>
+    </menu>
+    </item>
+
+    <group android:id="@+id/group_bottom">
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/ic_help"
+            android:title="@string/nav_faq_text" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="@string/nav_about_text" />
+    </group>
+
+</menu>

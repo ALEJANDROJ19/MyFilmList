@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="array_sort">
+        <item name="title_sort">Titol</item>
+        <item name="year_sort">Any</item>
+        <item name="rank_sort">Puntuacio</item>
+    </array>
+
+</resources>

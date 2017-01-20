@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">MyFilmList</string>
+    <string name="app_subname">Guarda-ho tot en una llista</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Configuracions</string>
+    <string name="director">Director:</string>
+    <string name="any_d_estrena">Any d\'estrena:</string>
+    <string name="pais">País:</string>
+    <string name="protagonista">Protagonista:</string>
+    <string name="hint_title">The Shining</string>
+    <string name="hint_director">Stanley Kubrick</string>
+    <string name="hint_year">1980</string>
+    <string name="hint_country">EUA</string>
+    <string name="hint_main_character">Jack Nicholson</string>
+    <string name="imatge_per_defecte_button">Restaurar Imatge per defecte</string>
+    <string name="titol">Títol:</string>
+    <string name="action_save">Guardar</string>
+    <string name="search_hint">Buscar…</string>
+    <string name="aboutDialogMessage">Aquesta APP ha estat desenvolupada com a part d\'una pràctica de l\'assignatura de INDI.</string>
+    <string name="aboutDialogTitle">Sobre</string>
+    <string name="nav_about_text">Sobre</string>
+    <string name="delete_film_dialog">Vols eliminar la pel·lícula de la llista?</string>
+    <string name="afirmative_delete_option">Borrar</string>
+    <string name="negative_delete_option">No</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_delete">Esborrar</string>
+    <string name="nav_faq_text">Ajuda/FAQ</string>
+    <string name="nav_help_category" />
+    <string name="faqDialogMessage">Aquesta APP s\'encarrega de emmagatzemar pel·lícules que haguis vist i guardar detalls importants.
+        Permet ordenar la llista de diferents formes fent clic en el botó Ordenar de l\'activitat principal.
+    En fer un clic en una pel·lícula, podem consultar en detall la seva informació. En fer un clic llarg en una pel·lícula de la llista, podem borrar-la.
+    En el menu lateral, podem filtrar per director o per protagonista.
+    També podem filtrar un títol específic en la barra de cerca.
+    Per afegir una nova pel·lícula, apretar en el botó + del principi.</string>
+    <string name="faqDialogTitle">Ajuda</string>
+    <string name="nav_title_text">Títol</string>
+    <string name="nav_protagonista_text">Protagonista</string>
+    <string name="nav_director_text">Director</string>
+    <string name="nav_group_up_tittle">Buscar per:</string>
+    <string name="dialog_protagonist_filter_title">Selecciona un protagonista</string>
+    <string name="protagonist_title_prefix">Protagonista:</string>
+    <string name="director_title_prefix">Director:</string>
+    <string name="sort_invers_chackable">Descendent</string>
+    <string name="err_title">Introdueix un títol.</string>
+    <string name="err_director">Introdueix un director.</string>
+    <string name="err_year">Introdueix un any d\'entrega.</string>
+    <string name="err_country">Introdueix un pais.</string>
+    <string name="err_protagonist">Introdueix un protagonista.</string>
+    <string name="any">Any</string>
+    <string name="titol2">Títol</string>
+    <string name="puntuacio">Puntuació</string>
+    <string name="sort_button_ok">Ordenar</string>
+
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="75dp"
+    android:paddingRight="75dp"
+    android:paddingBottom="5dp"
+    android:paddingTop="25dp">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/rb_sort_title"
+        android:layout_marginBottom="15dp">
+
+        <RadioButton
+            android:text="@string/titol2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_sort_title"
+            android:layout_weight="1"
+            android:layout_marginBottom="5dp" />
+
+        <RadioButton
+            android:text="@string/any"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_sort_any"
+            android:layout_weight="1"
+            android:layout_marginBottom="5dp"
+            android:checked="true" />
+
+        <RadioButton
+            android:text="@string/puntuacio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_sort_puntuacio"
+            android:layout_weight="1" />
+    </RadioGroup>
+
+    <CheckBox
+        android:text="@string/sort_invers_chackable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_sort_inverse"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:text="@string/sort_button_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_sort_ok"
+        android:layout_gravity="center_horizontal"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp" />
+</LinearLayout>
